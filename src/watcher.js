@@ -55,7 +55,7 @@ const app = {
                             const run_program = spawn(`./${output_file}`);
                             run_program.stdout.on('data', function (data) {
                                 clearConsole();
-                                console.log(`Code output at ${new Date().toLocaleTimeString()}:`);
+                                console.log(`Code outputted without errors at ${new Date().toLocaleTimeString()}:`);
                                 console.log('\x1b[36m', `${data}`);
                             });
 

@@ -11,7 +11,7 @@
     "node": ">=8.0.0"
   },
   "author": "Tremaine Buchanan",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/MateiMartin/Cpp-file-watcher"
