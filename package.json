@@ -1,0 +1,27 @@
+{
+  "name": "Cpp-file-watcher",
+  "version": "1.0.0",
+  "description": "Nodemon for C++ files. Watches .cpp files for changes and compiles.",
+  "main": "watcher.js",
+  "preferGlobal": true,
+  "bin": {
+    "Cpp-file-watcher": "watcher.js"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "author": "Tremaine Buchanan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MateiMartin/Cpp-file-watcher"
+  },
+  "keywords": [
+    "c++",
+    "cpp",
+    "file watcher",
+    "javascript",
+    "node",
+    "utility"
+  ]
+}
