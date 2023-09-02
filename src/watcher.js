@@ -41,7 +41,7 @@ const app = {
                 });
 
                 compile_file.stderr.on('data', function (data) {
-                    console.log(`stderr: ${data}`);
+                    console.log('\x1b[37m%s\x1b[0m',`Error:\n ${data}`);
                 });
 
                 compile_file.on('close', (code) => {
@@ -49,7 +49,7 @@ const app = {
                         setTimeout(() => {
                             const run_program = spawn(`./${output_file}`);
                             run_program.stdout.on('data', function (data) {
-                                console.log(`Code outputted without errors at ${new Date().toLocaleTimeString()}:`);
+                                console.log('\x1b[37m%s\x1b[0m',`Code outputted without errors at ${new Date().toLocaleTimeString()}:`);
                                 console.log('\x1b[36m', `${data}`);
                             });
 
