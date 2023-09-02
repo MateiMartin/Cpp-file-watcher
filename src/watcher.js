@@ -4,10 +4,6 @@ const fs = require('fs');
 const spawn = require('child_process').spawn;
 const args = process.argv.slice(2);
 
-const clearConsole = () => {
-    process.stdout.write('\x1Bc');
-    process.stderr.write('\x1Bc');
-};
 
 const app = {
     /**
@@ -50,11 +46,9 @@ const app = {
 
                 compile_file.on('close', (code) => {
                     if (code === 0) {
-                        clearConsole();
                         setTimeout(() => {
                             const run_program = spawn(`./${output_file}`);
                             run_program.stdout.on('data', function (data) {
-                                clearConsole();
                                 console.log(`Code outputted without errors at ${new Date().toLocaleTimeString()}:`);
                                 console.log('\x1b[36m', `${data}`);
                             });
