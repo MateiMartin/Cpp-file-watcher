@@ -1,27 +1,14 @@
 {
-  "name": "Cpp-file-watcher",
+  "name": "cpp-file-watcher",
   "version": "1.0.0",
-  "description": "Nodemon for C++ files. Watches .cpp files for changes and compiles.",
+  "description": "This is a simple cpp file watcher that will compile and run your cpp file on every change.",
   "main": "watcher.js",
-  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "bin": {
-    "Cpp-file-watcher": "watcher.js"
+    "cpp-file-watcher": "./src/watcher.js"
   },
-  "engines": {
-    "node": ">=8.0.0"
-  },
-  "author": "Tremaine Buchanan",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MateiMartin/Cpp-file-watcher"
-  },
-  "keywords": [
-    "c++",
-    "cpp",
-    "file watcher",
-    "javascript",
-    "node",
-    "utility"
-  ]
+  "author": "",
+  "license": "MIT"
 }
