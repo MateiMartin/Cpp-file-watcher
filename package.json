@@ -1,6 +1,6 @@
 {
   "name": "cpp-file-watcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a simple cpp file watcher that will compile and run your cpp file on every change.",
   "main": "watcher.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "bin": {
     "cpp-file-watcher": "./src/watcher.js"
   },
-  "author": "",
+  "author": "Martin Matei",
   "license": "MIT"
 }
