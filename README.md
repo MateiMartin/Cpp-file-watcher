@@ -37,3 +37,6 @@ From the terminal (Ctrl + T to invoke) run the following
 
  An object file `.o` with the same name as the `.cpp` file will be created. 
 
+# My Github
+[Martin Matei](https://github.com/MateiMartin)
+
