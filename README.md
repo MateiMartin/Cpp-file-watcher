@@ -17,11 +17,7 @@ This library would reduce the need to type and run the `g++` command manually.
 
 # Installation
 
-From the terminal (Ctrl + T to invoke) run the following 
-
-`npm install -g cpp-file-watcher` 
-        or
-`npm i -g cpp-file-watcher`
+You can find and use it on (https://www.privjs.com) by searching cpp-file-watcher in the marketplace
 
 # Usage
  
