@@ -17,8 +17,10 @@ This library would reduce the need to type and run the `g++` command manually.
 
 # Installation
 
-You can find and use it on (https://www.privjs.com) by searching cpp-file-watcher in the marketplace
+From the terminal (Ctrl + T to invoke) run the following
 
+    npm install -g cpp-file-watcher
+    
 # Usage
  
  Once installed globally, navigate to the folder containing `.cpp` files. 
